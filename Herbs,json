@@ -1,0 +1,966 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2025",
+  "herbs": [
+    {
+      "id": 1,
+      "name": "Basilikum",
+      "nameLatin": "Ocimum basilicum",
+      "primaryEffect": "verdauungsfördernd",
+      "primaryEffectWeight": 0.6,
+      "secondaryEffect": "stimmungsaufhellend",
+      "secondaryEffectWeight": 0.4,
+      "vaporizationTempMin": 130,
+      "vaporizationTempMax": 130,
+      "description": "Basilikum enthält Linalool und wird traditionell gegen Erkältungen, Verdauungsbeschwerden und zur Stimmungsaufhellung eingesetzt.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1200,
+        "warnings": "",
+        "notes": "Kombinierbar mit Pfefferminze und Oregano"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Blaue Sternlilie",
+      "nameLatin": "Nymphaea caerulea",
+      "primaryEffect": "sedierend",
+      "primaryEffectWeight": 0.7,
+      "secondaryEffect": "stimmungsaufhellend",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 125,
+      "vaporizationTempMax": 125,
+      "description": "Die Blaue Sternlilie enthält Apomorphin und wirkt leicht sedierend. Sie wurde traditionell zur Beruhigung und für einen milden psychedelischen Effekt eingesetzt.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 250,
+        "chamberLarge_mg": 500,
+        "maxDailyDose_mg": 800,
+        "warnings": "Kann psychoaktiv wirken; Besitz in einigen Ländern illegal",
+        "notes": ""
+      }
+    },
+    {
+      "id": 3,
+      "name": "Katzenminze",
+      "nameLatin": "Nepeta cataria",
+      "primaryEffect": "entspannend",
+      "primaryEffectWeight": 0.7,
+      "secondaryEffect": "euphorisierend",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 150,
+      "vaporizationTempMax": 150,
+      "description": "Katzenminze hat einen beruhigenden Duft und kann leichte Euphorie auslösen. Sie wird traditionell zur Entspannung und Stimmungsaufhellung verwendet.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1200,
+        "warnings": "",
+        "notes": ""
+      }
+    },
+    {
+      "id": 4,
+      "name": "Kamille",
+      "nameLatin": "Matricaria chamomilla",
+      "primaryEffect": "entspannend",
+      "primaryEffectWeight": 0.8,
+      "secondaryEffect": "schlaffördernd",
+      "secondaryEffectWeight": 0.6,
+      "vaporizationTempMin": 125,
+      "vaporizationTempMax": 125,
+      "description": "Kamille wirkt stark beruhigend und wird traditionell zum Entspannen und als Schlafhilfe eingesetzt.",
+      "dosage": {
+        "chamberSmall_mg": 200,
+        "chamberMedium_mg": 400,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1000,
+        "warnings": "Bei Korbblütler-Allergie vermeiden",
+        "notes": ""
+      }
+    },
+    {
+      "id": 5,
+      "name": "Eukalyptus",
+      "nameLatin": "Eucalyptus globulus",
+      "primaryEffect": "bronchienerweiternd",
+      "primaryEffectWeight": 0.7,
+      "secondaryEffect": "antibakteriell",
+      "secondaryEffectWeight": 0.6,
+      "vaporizationTempMin": 130,
+      "vaporizationTempMax": 130,
+      "description": "Eukalyptus befreit die Atemwege und hat antibakterielle Eigenschaften. Er wird traditionell bei Erkältungen und Atemwegserkrankungen eingesetzt.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1200,
+        "warnings": "Nicht für Kleinkinder; möglicherweise reizend",
+        "notes": ""
+      }
+    },
+    {
+      "id": 6,
+      "name": "Grüner Tee",
+      "nameLatin": "Camellia sinensis",
+      "primaryEffect": "anregend",
+      "primaryEffectWeight": 0.8,
+      "secondaryEffect": "antioxidativ",
+      "secondaryEffectWeight": 0.6,
+      "vaporizationTempMin": 185,
+      "vaporizationTempMax": 185,
+      "description": "Grüner Tee enthält Koffein und wirkt stimulierend. Beim Verdampfen steigt der Energiepegel ähnlich wie nach dem Trinken; er kann kleinere Schmerzen lindern.",
+      "dosage": {
+        "chamberSmall_mg": 200,
+        "chamberMedium_mg": 400,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1200,
+        "warnings": "Koffeinhaltig; bei Herzproblemen dosieren",
+        "notes": ""
+      }
+    },
+    {
+      "id": 7,
+      "name": "Hibiskus",
+      "nameLatin": "Hibiscus sabdariffa",
+      "primaryEffect": "antioxidativ",
+      "primaryEffectWeight": 0.6,
+      "secondaryEffect": "stimmungsaufhellend",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 175,
+      "vaporizationTempMax": 175,
+      "description": "Hibiskus enthält Flavonoide und Antioxidantien, die Stoffwechsel und Stimmung positiv beeinflussen können.",
+      "dosage": {
+        "chamberSmall_mg": 150,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1200,
+        "warnings": "",
+        "notes": ""
+      }
+    },
+    {
+      "id": 8,
+      "name": "Hopfen",
+      "nameLatin": "Humulus lupulus",
+      "primaryEffect": "entspannend",
+      "primaryEffectWeight": 0.8,
+      "secondaryEffect": "euphorisierend",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 200,
+      "vaporizationTempMax": 200,
+      "description": "Hopfen wirkt leicht euphorisierend und stark entspannend. Er wird traditionell bei nervöser Unruhe und Schlafproblemen eingesetzt.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1000,
+        "warnings": "",
+        "notes": ""
+      }
+    },
+    {
+      "id": 9,
+      "name": "Lavendel",
+      "nameLatin": "Lavandula angustifolia",
+      "primaryEffect": "beruhigend",
+      "primaryEffectWeight": 0.85,
+      "secondaryEffect": "angstlösend",
+      "secondaryEffectWeight": 0.6,
+      "vaporizationTempMin": 125,
+      "vaporizationTempMax": 150,
+      "description": "Lavendel wirkt sehr beruhigend; er wird traditionell gegen Schmerzen, Schlaflosigkeit und Unruhe eingesetzt.",
+      "dosage": {
+        "chamberSmall_mg": 80,
+        "chamberMedium_mg": 200,
+        "chamberLarge_mg": 400,
+        "maxDailyDose_mg": 800,
+        "warnings": "Nicht in Schwangerschaft empfohlen",
+        "notes": "Kombiniert gut mit Kamille"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Zitronenmelisse",
+      "nameLatin": "Melissa officinalis",
+      "primaryEffect": "beruhigend",
+      "primaryEffectWeight": 0.8,
+      "secondaryEffect": "stimmungsaufhellend",
+      "secondaryEffectWeight": 0.6,
+      "vaporizationTempMin": 130,
+      "vaporizationTempMax": 142,
+      "description": "Zitronenmelisse entspannt die Muskulatur und verbessert die Stimmung. Studien belegen beruhigende und schlaffördernde Effekte.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1200,
+        "warnings": "",
+        "notes": "Wirkt gut mit Lavendel zusammen"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Passionsblume",
+      "nameLatin": "Passiflora incarnata",
+      "primaryEffect": "beruhigend",
+      "primaryEffectWeight": 0.8,
+      "secondaryEffect": "schmerzlindernd",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 150,
+      "vaporizationTempMax": 150,
+      "description": "Passionsblume wirkt sedierend und angstlösend. Sie wird traditionell bei Nervosität und zur Schmerztherapie eingesetzt.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1000,
+        "warnings": "",
+        "notes": ""
+      }
+    },
+    {
+      "id": 12,
+      "name": "Pfefferminze",
+      "nameLatin": "Mentha x piperita",
+      "primaryEffect": "erfrischend",
+      "primaryEffectWeight": 0.7,
+      "secondaryEffect": "schmerzlindernd",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 170,
+      "vaporizationTempMax": 170,
+      "description": "Pfefferminze liefert einen starken Menthol-Kick; sie wirkt kühlend und schmerzlindernd. Traditionell wird sie bei Kopfschmerzen und Erkältungen eingesetzt.",
+      "dosage": {
+        "chamberSmall_mg": 50,
+        "chamberMedium_mg": 150,
+        "chamberLarge_mg": 300,
+        "maxDailyDose_mg": 600,
+        "warnings": "In hohen Dosen Magenreizungen möglich",
+        "notes": ""
+      }
+    },
+    {
+      "id": 13,
+      "name": "Thymian",
+      "nameLatin": "Thymus vulgaris",
+      "primaryEffect": "antibakteriell",
+      "primaryEffectWeight": 0.7,
+      "secondaryEffect": "schleimlösend",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 150,
+      "vaporizationTempMax": 150,
+      "description": "Thymian wirkt stark antibakteriell und schleimlösend. Er wird traditionell bei Husten und Atemwegsinfektionen eingesetzt.",
+      "dosage": {
+        "chamberSmall_mg": 80,
+        "chamberMedium_mg": 200,
+        "chamberLarge_mg": 400,
+        "maxDailyDose_mg": 800,
+        "warnings": "Über 150°C nicht erhitzen (starke Bitterstoffe)",
+        "notes": ""
+      }
+    },
+    {
+      "id": 14,
+      "name": "Salbei",
+      "nameLatin": "Salvia officinalis",
+      "primaryEffect": "entzündungshemmend",
+      "primaryEffectWeight": 0.7,
+      "secondaryEffect": "kognitionsfördernd",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 190,
+      "vaporizationTempMax": 190,
+      "description": "Salbei wird traditionell zur Reinigung und Verbesserung der Gehirnfunktion eingesetzt. Die ätherischen Öle wirken entzündungshemmend und antioxidativ.",
+      "dosage": {
+        "chamberSmall_mg": 80,
+        "chamberMedium_mg": 200,
+        "chamberLarge_mg": 400,
+        "maxDailyDose_mg": 800,
+        "warnings": "Hemmt Milchbildung (nicht in Stillzeit)",
+        "notes": ""
+      }
+    },
+    {
+      "id": 15,
+      "name": "Johanniskraut",
+      "nameLatin": "Hypericum perforatum",
+      "primaryEffect": "stimmungsaufhellend",
+      "primaryEffectWeight": 0.8,
+      "secondaryEffect": "angstlösend",
+      "secondaryEffectWeight": 0.6,
+      "vaporizationTempMin": 150,
+      "vaporizationTempMax": 150,
+      "description": "Johanniskraut wird bei leichten Depressionen eingesetzt. Beim Verdampfen entfaltet es stimmungsaufhellende und beruhigende Effekte.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1000,
+        "warnings": "Photosensibilisierung; starke Wechselwirkungen mit Medikamenten",
+        "notes": ""
+      }
+    },
+    {
+      "id": 16,
+      "name": "Baldrian",
+      "nameLatin": "Valeriana officinalis",
+      "primaryEffect": "sedierend",
+      "primaryEffectWeight": 0.9,
+      "secondaryEffect": "angstlösend",
+      "secondaryEffectWeight": 0.6,
+      "vaporizationTempMin": 150,
+      "vaporizationTempMax": 150,
+      "description": "Valerianwurzel wirkt stark sedierend und kann den Schlaf fördern. Sie wird traditionell bei Schlafstörungen und nervöser Anspannung eingesetzt.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1200,
+        "warnings": "Kann Benommenheit verursachen; nicht langfristig einnehmen",
+        "notes": ""
+      }
+    },
+    {
+      "id": 17,
+      "name": "Yerba Mate",
+      "nameLatin": "Ilex paraguariensis",
+      "primaryEffect": "anregend",
+      "primaryEffectWeight": 0.8,
+      "secondaryEffect": "stimmungsaufhellend",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 150,
+      "vaporizationTempMax": 150,
+      "description": "Yerba Mate enthält Koffein und wirkt aufmunternd. Beim Verdampfen steigert es Energie und hebt die Stimmung, ähnlich wie Grüner Tee.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1200,
+        "warnings": "Koffeinhaltig; Herzrasen möglich",
+        "notes": ""
+      }
+    },
+    {
+      "id": 18,
+      "name": "Anis",
+      "nameLatin": "Pimpinella anisum",
+      "primaryEffect": "verdauungsfördernd",
+      "primaryEffectWeight": 0.7,
+      "secondaryEffect": "entkrampfend",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 150,
+      "vaporizationTempMax": 170,
+      "description": "Anis wirkt entkrampfend auf Magen und Bronchien. Traditionell wird er bei Verdauungsbeschwerden, Husten und Keuchreiz verwendet.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1200,
+        "warnings": "",
+        "notes": ""
+      }
+    },
+    {
+      "id": 19,
+      "name": "Beinwell",
+      "nameLatin": "Symphytum officinale",
+      "primaryEffect": "wundheilend",
+      "primaryEffectWeight": 0.7,
+      "secondaryEffect": "entzündungshemmend",
+      "secondaryEffectWeight": 0.6,
+      "vaporizationTempMin": 150,
+      "vaporizationTempMax": 175,
+      "description": "Beinwell (Symphytum) wird traditionell zur Wund- und Knochenheilung eingesetzt. Er wirkt entzündungshemmend, sollte aber wegen toxischer Alkaloide nur äußerlich oder kurz inhaliert werden.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1000,
+        "warnings": "Enthält Pyrrolizidinalkaloide; nur äußerlich/inhalativ",
+        "notes": ""
+      }
+    },
+    {
+      "id": 20,
+      "name": "Damiana",
+      "nameLatin": "Turnera diffusa",
+      "primaryEffect": "stimulierend",
+      "primaryEffectWeight": 0.6,
+      "secondaryEffect": "stimmungsaufhellend",
+      "secondaryEffectWeight": 0.4,
+      "vaporizationTempMin": 150,
+      "vaporizationTempMax": 170,
+      "description": "Damiana wirkt leicht stimulierend und stimmungsaufhellend. Traditionell wird sie für entspannte Abende und aphrodisierende Effekte verwendet.",
+      "dosage": {
+        "chamberSmall_mg": 150,
+        "chamberMedium_mg": 400,
+        "chamberLarge_mg": 800,
+        "maxDailyDose_mg": 1500,
+        "warnings": "Nicht in Schwangerschaft; leicht psychoaktiv",
+        "notes": ""
+      }
+    },
+    {
+      "id": 21,
+      "name": "Engelwurz",
+      "nameLatin": "Angelica archangelica",
+      "primaryEffect": "verdauungsfördernd",
+      "primaryEffectWeight": 0.6,
+      "secondaryEffect": "stärkend",
+      "secondaryEffectWeight": 0.4,
+      "vaporizationTempMin": 100,
+      "vaporizationTempMax": 150,
+      "description": "Engelwurz (Angelica) ist ein Bitterkraut, das traditionell bei Verdauungsproblemen und allgemeiner Schwäche verwendet wird.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1200,
+        "warnings": "Phototoxizität möglich (Bergapten)",
+        "notes": ""
+      }
+    },
+    {
+      "id": 22,
+      "name": "Nelken",
+      "nameLatin": "Syzygium aromaticum",
+      "primaryEffect": "schmerzlindernd",
+      "primaryEffectWeight": 0.8,
+      "secondaryEffect": "antiseptisch",
+      "secondaryEffectWeight": 0.6,
+      "vaporizationTempMin": 125,
+      "vaporizationTempMax": 150,
+      "description": "Nelken enthalten Eugenol und wirken stark schmerzlindernd sowie antiseptisch. Traditionell werden sie bei Zahn- und Kopfschmerzen sowie Erkältungen eingesetzt.",
+      "dosage": {
+        "chamberSmall_mg": 20,
+        "chamberMedium_mg": 50,
+        "chamberLarge_mg": 100,
+        "maxDailyDose_mg": 200,
+        "warnings": "In hohen Dosen reizend",
+        "notes": ""
+      }
+    },
+    {
+      "id": 23,
+      "name": "Ginseng",
+      "nameLatin": "Panax ginseng",
+      "primaryEffect": "tonisierend",
+      "primaryEffectWeight": 0.8,
+      "secondaryEffect": "leistungssteigernd",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 175,
+      "vaporizationTempMax": 200,
+      "description": "Ginseng wirkt tonisierend und leistungsfördernd. Studien belegen, dass er Müdigkeit reduziert und die allgemeine Leistungsfähigkeit steigert.",
+      "dosage": {
+        "chamberSmall_mg": 150,
+        "chamberMedium_mg": 400,
+        "chamberLarge_mg": 800,
+        "maxDailyDose_mg": 1600,
+        "warnings": "Kann Schlaflosigkeit, Bluthochdruck verursachen",
+        "notes": ""
+      }
+    },
+    {
+      "id": 24,
+      "name": "Goldrute",
+      "nameLatin": "Solidago virgaurea",
+      "primaryEffect": "entzündungshemmend",
+      "primaryEffectWeight": 0.6,
+      "secondaryEffect": "harntreibend",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 100,
+      "vaporizationTempMax": 150,
+      "description": "Goldrute wirkt entzündungshemmend und wird traditionell zur Unterstützung von Nieren- und Blasengesundheit eingesetzt.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1000,
+        "warnings": "Allergie bei Korbblütlern möglich",
+        "notes": ""
+      }
+    },
+    {
+      "id": 25,
+      "name": "Gotu Kola",
+      "nameLatin": "Centella asiatica",
+      "primaryEffect": "nervenstärkend",
+      "primaryEffectWeight": 0.7,
+      "secondaryEffect": "entspannend",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 100,
+      "vaporizationTempMax": 150,
+      "description": "Gotu Kola ist in der ayurvedischen Tradition als entspannend und nervenstärkend bekannt. Sie kann Stress reduzieren und die geistige Klarheit fördern.",
+      "dosage": {
+        "chamberSmall_mg": 150,
+        "chamberMedium_mg": 400,
+        "chamberLarge_mg": 800,
+        "maxDailyDose_mg": 1500,
+        "warnings": "Langzeitgebrauch kann Lebertoxizität verursachen",
+        "notes": ""
+      }
+    },
+    {
+      "id": 26,
+      "name": "Guarana",
+      "nameLatin": "Paullinia cupana",
+      "primaryEffect": "anregend",
+      "primaryEffectWeight": 0.9,
+      "secondaryEffect": "konzentrationsfördernd",
+      "secondaryEffectWeight": 0.6,
+      "vaporizationTempMin": 185,
+      "vaporizationTempMax": 195,
+      "description": "Guarana enthält natürliches Koffein und wirkt stimulierend. Traditionell dient es als sanftes Aufputschmittel zur Steigerung von Energie und Konzentration.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1200,
+        "warnings": "Koffeinhaltig; Herzrasen möglich",
+        "notes": ""
+      }
+    },
+    {
+      "id": 27,
+      "name": "Ysop",
+      "nameLatin": "Hyssopus officinalis",
+      "primaryEffect": "auswurffördernd",
+      "primaryEffectWeight": 0.7,
+      "secondaryEffect": "verdauungsfördernd",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 100,
+      "vaporizationTempMax": 150,
+      "description": "Ysop wird traditionell bei Atemwegs- und Verdauungsproblemen eingesetzt. Er wirkt auswurffördernd und kann die Verdauung anregen.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1200,
+        "warnings": "",
+        "notes": ""
+      }
+    },
+    {
+      "id": 28,
+      "name": "Ingwer",
+      "nameLatin": "Zingiber officinale",
+      "primaryEffect": "wärmend",
+      "primaryEffectWeight": 0.7,
+      "secondaryEffect": "verdauungsfördernd",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 130,
+      "vaporizationTempMax": 130,
+      "description": "Ingwer wirkt wärmend und lindert Übelkeit. Traditionell wird er gegen Reise- und Magenbeschwerden eingesetzt.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1200,
+        "warnings": "Kann Sodbrennen verursachen",
+        "notes": ""
+      }
+    },
+    {
+      "id": 29,
+      "name": "Herzgespann",
+      "nameLatin": "Leonurus cardiaca",
+      "primaryEffect": "nervenstärkend",
+      "primaryEffectWeight": 0.7,
+      "secondaryEffect": "krampflösend",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 100,
+      "vaporizationTempMax": 150,
+      "description": "Herzgespann ist ein klassisches Herz- und Nervenkraut. Es wird traditionell bei innerer Unruhe und Herzbeschwerden verwendet.",
+      "dosage": {
+        "chamberSmall_mg": 150,
+        "chamberMedium_mg": 400,
+        "chamberLarge_mg": 800,
+        "maxDailyDose_mg": 1500,
+        "warnings": "Blutdrucksenkend",
+        "notes": ""
+      }
+    },
+    {
+      "id": 30,
+      "name": "Mädesüß",
+      "nameLatin": "Filipendula ulmaria",
+      "primaryEffect": "schmerzlindernd",
+      "primaryEffectWeight": 0.7,
+      "secondaryEffect": "entzündungshemmend",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 100,
+      "vaporizationTempMax": 150,
+      "description": "Mädesüß wird traditionell bei Fieber, Kopfschmerzen und Erkältungen eingesetzt. Es enthält salicylathaltige Verbindungen mit schmerzlindernder Wirkung.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1200,
+        "warnings": "Wirkung ähnlich wie Aspirin (Salicylate)",
+        "notes": ""
+      }
+    },
+    {
+      "id": 31,
+      "name": "Rosmarin",
+      "nameLatin": "Salvia rosmarinus",
+      "primaryEffect": "anregend",
+      "primaryEffectWeight": 0.7,
+      "secondaryEffect": "durchblutungsfördernd",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 200,
+      "vaporizationTempMax": 200,
+      "description": "Rosmarin wirkt anregend und kreislauffördernd. Er wird traditionell bei Erschöpfung und Kreislaufproblemen verwendet.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1200,
+        "warnings": "Nicht in SS (Wehenfördernd)",
+        "notes": ""
+      }
+    },
+    {
+      "id": 32,
+      "name": "Bergamotte",
+      "nameLatin": "Citrus bergamia",
+      "primaryEffect": "stimmungsaufhellend",
+      "primaryEffectWeight": 0.7,
+      "secondaryEffect": "antidepressiv",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 95,
+      "vaporizationTempMax": 95,
+      "description": "Bergamotte-Öl hebt nachweislich die Stimmung. Sein frischer Zitrusduft wirkt entspannend und antidepressiv; Vorsicht: Phototoxizität möglich.",
+      "dosage": {
+        "chamberSmall_mg": 50,
+        "chamberMedium_mg": 150,
+        "chamberLarge_mg": 300,
+        "maxDailyDose_mg": 500,
+        "warnings": "Phototoxisch (Bergapten)",
+        "notes": ""
+      }
+    },
+    {
+      "id": 33,
+      "name": "Myrrhe",
+      "nameLatin": "Commiphora myrrha",
+      "primaryEffect": "entzündungshemmend",
+      "primaryEffectWeight": 0.7,
+      "secondaryEffect": "schmerzlindernd",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 190,
+      "vaporizationTempMax": 190,
+      "description": "Myrrhe wirkt entzündungshemmend und schmerzlindernd, z. B. bei Mundschleimhautentzündungen. Sie wird seit Jahrtausenden in der traditionellen Medizin eingesetzt.",
+      "dosage": {
+        "chamberSmall_mg": 50,
+        "chamberMedium_mg": 100,
+        "chamberLarge_mg": 200,
+        "maxDailyDose_mg": 400,
+        "warnings": "Nicht in SS (Uterus stimulatorisch)",
+        "notes": ""
+      }
+    },
+    {
+      "id": 34,
+      "name": "Sandelholz",
+      "nameLatin": "Santalum album",
+      "primaryEffect": "beruhigend",
+      "primaryEffectWeight": 0.8,
+      "secondaryEffect": "stimmungsaufhellend",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 190,
+      "vaporizationTempMax": 190,
+      "description": "Sandelholz wirkt stark entspannend und kann Angstzustände mindern. Es wird traditionell in spirituellen Ritualen und zur Meditation eingesetzt.",
+      "dosage": {
+        "chamberSmall_mg": 50,
+        "chamberMedium_mg": 150,
+        "chamberLarge_mg": 300,
+        "maxDailyDose_mg": 600,
+        "warnings": "Kann Hautreizungen verursachen",
+        "notes": ""
+      }
+    },
+    {
+      "id": 35,
+      "name": "Tulsi (Heiliger Basilikum)",
+      "nameLatin": "Ocimum tenuiflorum",
+      "primaryEffect": "stressmindernd",
+      "primaryEffectWeight": 0.7,
+      "secondaryEffect": "immunstärkend",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 125,
+      "vaporizationTempMax": 125,
+      "description": "Tulsi, auch Heiliger Basilikum genannt, wirkt adaptogen und stresslindernd. In der Ayurveda-Medizin bringt es Körper und Geist ins Gleichgewicht.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1200,
+        "warnings": "",
+        "notes": ""
+      }
+    },
+    {
+      "id": 36,
+      "name": "Ashwagandha",
+      "nameLatin": "Withania somnifera",
+      "primaryEffect": "nervenstärkend",
+      "primaryEffectWeight": 0.7,
+      "secondaryEffect": "stressmindernd",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 200,
+      "vaporizationTempMax": 200,
+      "description": "Ashwagandha ist ein starkes Adaptogen der ayurvedischen Medizin. Es kann Stress reduzieren, die geistige Leistungsfähigkeit verbessern und das Nervensystem ausgleichen.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1200,
+        "warnings": "Nicht in SS",
+        "notes": ""
+      }
+    },
+    {
+      "id": 37,
+      "name": "Kava",
+      "nameLatin": "Piper methysticum",
+      "primaryEffect": "angstlösend",
+      "primaryEffectWeight": 0.9,
+      "secondaryEffect": "sedierend",
+      "secondaryEffectWeight": 0.7,
+      "vaporizationTempMin": 130,
+      "vaporizationTempMax": 130,
+      "description": "Kava wird traditionell als Entspannungs- und Rauschmittel im Pazifik verwendet. Es wirkt stark angstlösend und muskelentspannend ohne die kognitive Klarheit zu beeinträchtigen.",
+      "dosage": {
+        "chamberSmall_mg": 50,
+        "chamberMedium_mg": 150,
+        "chamberLarge_mg": 300,
+        "maxDailyDose_mg": 500,
+        "warnings": "Lebertoxisch bei Dauereinnahme",
+        "notes": ""
+      }
+    },
+    {
+      "id": 38,
+      "name": "Oregano",
+      "nameLatin": "Origanum vulgare",
+      "primaryEffect": "antimikrobiell",
+      "primaryEffectWeight": 0.7,
+      "secondaryEffect": "entzündungshemmend",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 150,
+      "vaporizationTempMax": 150,
+      "description": "Oregano wirkt antiseptisch und entzündungshemmend. Er wird traditionell bei Atemwegs- und Infektionskrankheiten eingesetzt und stärkt das Immunsystem.",
+      "dosage": {
+        "chamberSmall_mg": 50,
+        "chamberMedium_mg": 150,
+        "chamberLarge_mg": 300,
+        "maxDailyDose_mg": 600,
+        "warnings": "Kann Hautreizungen verursachen",
+        "notes": ""
+      }
+    },
+    {
+      "id": 39,
+      "name": "Zitronengras",
+      "nameLatin": "Cymbopogon citratus",
+      "primaryEffect": "entspannend",
+      "primaryEffectWeight": 0.6,
+      "secondaryEffect": "verdauungsfördernd",
+      "secondaryEffectWeight": 0.4,
+      "vaporizationTempMin": 100,
+      "vaporizationTempMax": 100,
+      "description": "Zitronengras hat einen frischen Zitronenduft und wirkt beruhigend. Es fördert die Verdauung und wird in der Aromatherapie häufig zur Entspannung eingesetzt.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1200,
+        "warnings": "",
+        "notes": ""
+      }
+    },
+    {
+      "id": 40,
+      "name": "Muskatellersalbei",
+      "nameLatin": "Salvia sclarea",
+      "primaryEffect": "entspannend",
+      "primaryEffectWeight": 0.8,
+      "secondaryEffect": "hormonregulierend",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 170,
+      "vaporizationTempMax": 170,
+      "description": "Muskatellersalbei wirkt stark entspannend und hat eine ausgleichende Wirkung auf das Hormonsystem. Er wird traditionell zur Beruhigung und bei hormonellen Ungleichgewichten eingesetzt.",
+      "dosage": {
+        "chamberSmall_mg": 50,
+        "chamberMedium_mg": 150,
+        "chamberLarge_mg": 300,
+        "maxDailyDose_mg": 600,
+        "warnings": "Nicht in SS (Wehenfördernd)",
+        "notes": ""
+      }
+    },
+    {
+      "id": 41,
+      "name": "Beifuß",
+      "nameLatin": "Artemisia vulgaris",
+      "primaryEffect": "leicht sedierend",
+      "primaryEffectWeight": 0.5,
+      "secondaryEffect": "stimmungsaufhellend",
+      "secondaryEffectWeight": 0.4,
+      "vaporizationTempMin": 130,
+      "vaporizationTempMax": 130,
+      "description": "Beifuß wirkt leicht sedierend und kann die Verdauung fördern. Traditionell wird er bei Menstruations- und Verdauungsbeschwerden eingesetzt.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1000,
+        "warnings": "Thujonhaltig; nicht in SS",
+        "notes": ""
+      }
+    },
+    {
+      "id": 42,
+      "name": "Wermut",
+      "nameLatin": "Artemisia absinthium",
+      "primaryEffect": "appetitfördernd",
+      "primaryEffectWeight": 0.6,
+      "secondaryEffect": "verdauungsfördernd",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 125,
+      "vaporizationTempMax": 125,
+      "description": "Wermut ist ein stark bitteres Kraut, das den Appetit anregt und die Verdauung fördert. Er wird traditionell vor den Mahlzeiten eingenommen.",
+      "dosage": {
+        "chamberSmall_mg": 50,
+        "chamberMedium_mg": 150,
+        "chamberLarge_mg": 300,
+        "maxDailyDose_mg": 600,
+        "warnings": "Thujonhaltig; nicht in SS; bei Leberproblemen vermeiden",
+        "notes": ""
+      }
+    },
+    {
+      "id": 43,
+      "name": "Skullcap",
+      "nameLatin": "Scutellaria lateriflora",
+      "primaryEffect": "sedierend",
+      "primaryEffectWeight": 0.8,
+      "secondaryEffect": "nervenstärkend",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 200,
+      "vaporizationTempMax": 200,
+      "description": "Skullcap wird traditionell als Beruhigungsmittel verwendet. Sie dämpft übermäßige Nervosität und unterstützt die Entspannung.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1200,
+        "warnings": "",
+        "notes": ""
+      }
+    },
+    {
+      "id": 44,
+      "name": "Kardamom",
+      "nameLatin": "Elettaria cardamomum",
+      "primaryEffect": "verdauungsfördernd",
+      "primaryEffectWeight": 0.6,
+      "secondaryEffect": "krampflösend",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 155,
+      "vaporizationTempMax": 155,
+      "description": "Kardamom wirkt spasmolytisch und unterstützt die Verdauung. Traditionell wird er bei Magenkrämpfen und Verdauungsbeschwerden eingesetzt.",
+      "dosage": {
+        "chamberSmall_mg": 50,
+        "chamberMedium_mg": 150,
+        "chamberLarge_mg": 300,
+        "maxDailyDose_mg": 600,
+        "warnings": "",
+        "notes": ""
+      }
+    },
+    {
+      "id": 45,
+      "name": "Spearmint",
+      "nameLatin": "Mentha spicata",
+      "primaryEffect": "erfrischend",
+      "primaryEffectWeight": 0.6,
+      "secondaryEffect": "krampflösend",
+      "secondaryEffectWeight": 0.4,
+      "vaporizationTempMin": 170,
+      "vaporizationTempMax": 170,
+      "description": "Spearmint wirkt ähnlich kühlend wie Pfefferminze und kann Krämpfe lösen. Sie wird traditionell zur Unterstützung der Verdauung verwendet.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1200,
+        "warnings": "",
+        "notes": ""
+      }
+    },
+    {
+      "id": 46,
+      "name": "Mullein (Königskerze)",
+      "nameLatin": "Verbascum thapsus",
+      "primaryEffect": "bronchienerweiternd",
+      "primaryEffectWeight": 0.7,
+      "secondaryEffect": "entzündungshemmend",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 190,
+      "vaporizationTempMax": 190,
+      "description": "Königskerze (Verbascum thapsus) beruhigt die Atemwege und wirkt entzündungshemmend. Sie wird traditionell bei Husten und Bronchitis eingesetzt.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1200,
+        "warnings": "",
+        "notes": ""
+      }
+    },
+    {
+      "id": 47,
+      "name": "Zitronenverbene",
+      "nameLatin": "Aloysia citrodora",
+      "primaryEffect": "beruhigend",
+      "primaryEffectWeight": 0.7,
+      "secondaryEffect": "schlaffördernd",
+      "secondaryEffectWeight": 0.5,
+      "vaporizationTempMin": 80,
+      "vaporizationTempMax": 80,
+      "description": "Zitronenverbene hat einen zitronigen Duft und wirkt entspannend. Traditionell wird sie vor dem Schlafengehen zur Beruhigung eingesetzt.",
+      "dosage": {
+        "chamberSmall_mg": 100,
+        "chamberMedium_mg": 300,
+        "chamberLarge_mg": 600,
+        "maxDailyDose_mg": 1200,
+        "warnings": "",
+        "notes": ""
+      }
+    },
+    {
+      "id": 48,
+      "name": "Süßgras",
+      "nameLatin": "Hierochloe odorata",
+      "primaryEffect": "entspannend",
+      "primaryEffectWeight": 0.5,
+      "secondaryEffect": "aromatisch",
+      "secondaryEffectWeight": 0.3,
+      "vaporizationTempMin": 70,
+      "vaporizationTempMax": 70,
+      "description": "Süßgras hat einen süßlichen Duft (Cumarin) und wirkt leicht entspannend. Es wird traditionell bei Reinigungsritualen verwendet.",
+      "dosage": {
+        "chamberSmall_mg": 50,
+        "chamberMedium_mg": 100,
+        "chamberLarge_mg": 200,
+        "maxDailyDose_mg": 400,
+        "warnings": "Cumaringehalt; Lebertoxizität bei Überdosierung",
+        "notes": ""
+      }
+    }
+  ]
+}
